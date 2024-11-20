@@ -1,8 +1,11 @@
+import Benefits from "./components/home/benefits";
+
 function App() {
   return (
-    <>
-      <div className="bg-accent  h-screen ">Hola mundo</div>
-    </>
+    <div className="bg-primary">
+      <div className="  ">Hola mundo</div>
+      <Benefits />
+    </div>
   );
 }
 

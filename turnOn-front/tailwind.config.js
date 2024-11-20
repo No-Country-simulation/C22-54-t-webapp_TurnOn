@@ -21,7 +21,7 @@ export default {
       h2: '34px',
       h3: '27px',
       p: '14px',
-      small: '12px',
+      small: '13px',
       'h1-desktop': '49px',
       'h2-desktop': '39px',
       'h3-desktop': '31px',
@@ -30,6 +30,12 @@ export default {
     },
     screens: {
       xl: '1200px',
+    },
+    fontFamily: {
+      sans: ['Poppins', 'sans-serif'],
+    },
+    boxShadow: {
+      lg: '0px 4px 24px 0px #00000040',
     },
     extend: {},
   },
