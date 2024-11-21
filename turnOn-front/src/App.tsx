@@ -1,8 +1,14 @@
+import { Navbar } from "./components/Navbar";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 function App() {
   return (
-    <>
-      <div className="bg-accent  h-screen ">Hola mundo</div>
-    </>
+    <Router>
+      <Navbar/>
+        <Routes>
+
+        </Routes>
+    </Router>
   );
 }
 

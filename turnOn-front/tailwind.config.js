@@ -7,7 +7,7 @@ export default {
       secondary: '#fdfdf1',
       'secondary-2': '#ebeaff',
       'secondary-3': '#9694ff',
-      accent: '#3d3bf3',
+       accent: '#3d3bf3',
       'accent-2': '#b0fa3a',
       'dark-gray': '#344054',
       'black-80': '#181e29',
