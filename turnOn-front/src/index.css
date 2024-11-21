@@ -1,4 +1,16 @@
+/* Tailwind CSS */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+@layer components {
+  .button-register {
+    @apply  w-[7.2em] h-[2.5em] cursor-pointer overflow-hidden border-transparent text-white text-p-desktop font-medium rounded-2xl bg-accent;
+  }
+
+  .button-login {
+    @apply w-[4.5em] h-[2.5em] cursor-pointer overflow-hidden border-transparent text-black text-p-desktop font-medium rounded-xl bg-primary;
+  }
+
+}
