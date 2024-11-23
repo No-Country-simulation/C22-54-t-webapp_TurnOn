@@ -37,14 +37,10 @@ export const Navbar = () => {
                 </ul>
             </section>
 
-            <section className= 'flex items-center space-x-3 md:space-x-4'>
-                <Link to='/'>
-                    <Button label='Regristrate' onClick={handleRegisterClick} className='button-register' />
-                </Link>
-                <Link to='/'>
-                    <Button label='Ingresa' onClick={handleLoginClick} className='button-login'/>
-                </Link>
-
+            <section className= 'flex items-center space-x-3 md:space-x-4'>           
+                <Button label='Regristrate' onClick={handleRegisterClick} className='button-register' />
+                <Button label='Ingresa' onClick={handleLoginClick} className='button-login'/>   
+                            
                 <HamburguerMenu/>
             </section>
         </nav>
