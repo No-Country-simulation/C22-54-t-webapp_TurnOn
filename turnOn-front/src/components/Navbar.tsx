@@ -1,5 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom'; 
 import { Button } from './Button';
+import { HamburguerMenu } from './HamburguerMenu';
+
 
 export const Navbar = () => {
     const navigate = useNavigate();
@@ -13,13 +15,13 @@ export const Navbar = () => {
     };
 
     return (
-        <nav className='flex items-center justify-around bg-white m-3'>
+        <nav className= 'flex items-center justify-between md:justify-around bg-white m-5 '>
             <section>
-                <img src='/logo.svg' alt='Logo TurnOn' />
+                <img src='/logo.svg' alt='Logo TurnOn' className='w-[91px] h-[36px] '/>
             </section>
 
-            <section>
-                <ul className='flex space-x-8 xl:text-p-desktop text-dark-gray'>
+            <section className='hidden md:flex'>
+                <ul className= 'flex space-x-4 md:space-x-8 text-p-desktop text-dark-gray'>
                     <li>
                         <Link to='/'>Inicio</Link>
                     </li>
@@ -35,19 +37,11 @@ export const Navbar = () => {
                 </ul>
             </section>
 
-            <section className='flex space-x-4'>
-                <Button
-                    label='Regístrate'
-                    onClick={handleRegisterClick}
-                    className='button-register'
-                />
-
-                {/* Botón de Iniciar Sesión */}
-                <Button
-                    label='Ingresa'
-                    onClick={handleLoginClick}
-                    className='button-login'
-                />
+            <section className= 'flex items-center space-x-3 md:space-x-4'>           
+                <Button label='Regristrate' onClick={handleRegisterClick} className='button-register' />
+                <Button label='Ingresa' onClick={handleLoginClick} className='button-login'/>   
+                            
+                <HamburguerMenu/>
             </section>
         </nav>
     );
