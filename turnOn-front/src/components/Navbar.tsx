@@ -1,21 +1,18 @@
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom'; 
 import { Button } from './Button';
 import { HamburguerMenu } from './HamburguerMenu';
-
 
 
 export const Navbar = () => {
     const navigate = useNavigate();
 
     const handleRegisterClick = () => {
-        console.log('Registrate');
-        navigate('/');
-    }
+        navigate('/register');
+    };
 
     const handleLoginClick = () => {
-        console.log('Iniciar Sesión');
-        navigate('/');
-    }
+        navigate('/login');
+    };
 
     return (
         <nav className= 'flex items-center justify-between md:justify-around bg-white m-5 '>
@@ -26,16 +23,16 @@ export const Navbar = () => {
             <section className='hidden md:flex'>
                 <ul className= 'flex space-x-4 md:space-x-8 text-p-desktop text-dark-gray'>
                     <li>
-                        <Link to='/'> Inicio </Link>
+                        <Link to='/'>Inicio</Link>
                     </li>
                     <li>
-                        <Link to='/'> Servicios </Link>
+                        <Link to='/'>Servicios</Link>
                     </li>
                     <li>
-                        <Link to='/'> Planes </Link>
+                        <Link to='/'>Planes</Link>
                     </li>
                     <li>
-                    <Link to='/'> Empresas </Link>
+                        <Link to='/'>Empresas</Link>
                     </li>
                 </ul>
             </section>
@@ -51,5 +48,5 @@ export const Navbar = () => {
                 <HamburguerMenu/>
             </section>
         </nav>
-    )
-}
+    );
+};
