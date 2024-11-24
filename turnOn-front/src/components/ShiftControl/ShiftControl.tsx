@@ -23,9 +23,9 @@ const ShiftControl = () => {
     };
 
     return (
-        <div>
-            <h3>Conoce las experiencias de nuestros clientes</h3>
-            <h2>¿Qué es tener una buena gestión de turnos?</h2>
+        <div className="bg-primary py-16">
+            <h3 className="text-center text-p md:text-p-desktop mb-4">Conoce las experiencias de nuestros clientes</h3>
+            <h2 className="font-bold text-center uppercase text-h2 md:text-h2-desktop mb-12">¿Qué es tener una buena gestión de turnos?</h2>
             <Carousel
                 setApi={setApi}
                 plugins={[
@@ -38,41 +38,66 @@ const ShiftControl = () => {
                 opts={{
                     loop: true,
                 }}
+                className="mb-8"
             >
                 <CarouselContent>
                     <CarouselItem>
-                        <div>
-                            <div>
-                                <img src="https://res.cloudinary.com/di0cvbfdb/image/upload/v1732293636/TurnOn/dhzzhfigm1h4c7wwmvpp.png" alt="Buena gestión de turnos" />
-                            </div>
-                            <div>
-                                <p className="text-center text-p md:text-p-desktop mb-7">"Antes dependía de mis ojos para llamar a los consultorios, pero ahora puedo buscar y agendar turnos yo mismo. Es fácil de usar y me siento mucho más independiente."</p>
-                                <p className="text-center text-p md:text-p-desktop mb-4">Lucas Torres</p>
-                                <p className="text-center text-small md:text-small-desktop">Profesor y escritor</p>
-                            </div>
-                        </div>
-                    </CarouselItem>
-                    <CarouselItem>
-                        <div>
-                            <div>
-                                <img src="https://res.cloudinary.com/di0cvbfdb/image/upload/v1732293636/TurnOn/dhzzhfigm1h4c7wwmvpp.png" alt="Buena gestión de turnos" />
-                            </div>
-                            <div>
-                                <p className="text-center text-p md:text-p-desktop mb-7">"Antes dependía de mis ojos para llamar a los consultorios, pero ahora puedo buscar y agendar turnos yo mismo. Es fácil de usar y me siento mucho más independiente."</p>
-                                <p className="text-center text-p md:text-p-desktop mb-4">Lucas Torres</p>
-                                <p className="text-center text-small md:text-small-desktop">Profesor y escritor</p>
+                        <div className="flex justify-center items-center px-4">
+                            <div className="flex flex-col md:flex-row bg-white rounded-xl shadow-lg overflow-hidden max-w-[791px]">
+                                <div className="w-full md:w-[367px] h-[300px] md:h-[347px]">
+                                    <img
+                                        src="https://res.cloudinary.com/di0cvbfdb/image/upload/v1732486261/TurnOn/i2tutqvr4hhul6huu3l7.jpg"
+                                        alt="Buena gestión de turnos"
+                                        className="w-full h-full object-cover"
+                                    />
+                                </div>
+                                <div className="flex bg-secondary justify-center items-center w-full md:w-[424px] p-8">
+                                    <div>
+                                        <p className="text-center text-p md:text-p-desktop mb-7">"Antes dependía de mis ojos para llamar a los consultorios, pero ahora puedo buscar y agendar turnos yo mismo. Es fácil de usar y me siento mucho más independiente."</p>
+                                        <p className="text-center text-p md:text-p-desktop mb-4">Lucas Torres</p>
+                                        <p className="text-center text-small md:text-small-desktop">Profesor y escritor</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </CarouselItem>
                     <CarouselItem>
-                        <div>
-                            <div>
-                                <img src="https://res.cloudinary.com/di0cvbfdb/image/upload/v1732293636/TurnOn/dhzzhfigm1h4c7wwmvpp.png" alt="Buena gestión de turnos" />
+                        <div className="flex justify-center items-center px-4">
+                            <div className="flex flex-col md:flex-row bg-white rounded-xl shadow-lg overflow-hidden max-w-[791px]">
+                                <div className="w-full md:w-[367px] h-[300px] md:h-[347px]">
+                                    <img
+                                        src="https://res.cloudinary.com/di0cvbfdb/image/upload/v1732486261/TurnOn/i2tutqvr4hhul6huu3l7.jpg"
+                                        alt="Buena gestión de turnos"
+                                        className="w-full h-full object-cover"
+                                    />
+                                </div>
+                                <div className="flex bg-secondary justify-center items-center w-full md:w-[424px] p-8">
+                                    <div>
+                                        <p className="text-center text-p md:text-p-desktop mb-7">"Antes dependía de mis ojos para llamar a los consultorios, pero ahora puedo buscar y agendar turnos yo mismo. Es fácil de usar y me siento mucho más independiente."</p>
+                                        <p className="text-center text-p md:text-p-desktop mb-4">Lucas Torres</p>
+                                        <p className="text-center text-small md:text-small-desktop">Profesor y escritor</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div>
-                                <p className="text-center text-p md:text-p-desktop mb-7">"Antes dependía de mis ojos para llamar a los consultorios, pero ahora puedo buscar y agendar turnos yo mismo. Es fácil de usar y me siento mucho más independiente."</p>
-                                <p className="text-center text-p md:text-p-desktop mb-4">Lucas Torres</p>
-                                <p className="text-center text-small md:text-small-desktop">Profesor y escritor</p>
+                        </div>
+                    </CarouselItem>
+                    <CarouselItem>
+                        <div className="flex justify-center items-center px-4">
+                            <div className="flex flex-col md:flex-row bg-white rounded-xl shadow-lg overflow-hidden max-w-[791px]">
+                                <div className="w-full md:w-[367px] h-[300px] md:h-[347px]">
+                                    <img
+                                        src="https://res.cloudinary.com/di0cvbfdb/image/upload/v1732486261/TurnOn/i2tutqvr4hhul6huu3l7.jpg"
+                                        alt="Buena gestión de turnos"
+                                        className="w-full h-full object-cover"
+                                    />
+                                </div>
+                                <div className="flex bg-secondary justify-center items-center w-full md:w-[424px] p-8">
+                                    <div>
+                                        <p className="text-center text-p md:text-p-desktop mb-7">"Antes dependía de mis ojos para llamar a los consultorios, pero ahora puedo buscar y agendar turnos yo mismo. Es fácil de usar y me siento mucho más independiente."</p>
+                                        <p className="text-center text-p md:text-p-desktop mb-4">Lucas Torres</p>
+                                        <p className="text-center text-small md:text-small-desktop">Profesor y escritor</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </CarouselItem>
@@ -84,8 +109,8 @@ const ShiftControl = () => {
                         key={index}
                         onClick={() => handleSelect(index)}
                         className={`w-3 h-3 rounded-full transition-colors duration-300 ${current === index
-                                ? 'bg-white border border-dark-gray'
-                                : 'bg-dark-gray'
+                            ? 'bg-white border border-dark-gray'
+                            : 'bg-dark-gray'
                             }`}
                         aria-label={`Go to slide ${index + 1}`}
                     />
