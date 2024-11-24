@@ -13,3 +13,8 @@
     @apply w-[4.5em] md:w-[5em] h-[2.5em] text-p md:text-p-desktop cursor-pointer overflow-hidden border-transparent text-black font-medium rounded-lg md:rounded-2xl bg-primary;
   }
 }
+@layer base {
+  :root {
+    --radius: 0.5rem
+  }
+}
