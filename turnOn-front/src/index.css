@@ -3,14 +3,13 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* Estilos personalizados para los botones de registro e inicio de sesión */
 @layer components {
   .button-register {
-    @apply  w-[7.2em] h-[2.5em] cursor-pointer overflow-hidden border-transparent text-white text-p-desktop font-medium rounded-2xl bg-accent;
+    @apply w-[6.2em] md:w-[7.2em] h-[2.5em] text-p md:text-p-desktop cursor-pointer overflow-hidden border-transparent text-white font-medium rounded-lg md:rounded-2xl bg-accent;
   }
 
   .button-login {
-    @apply w-[4.5em] h-[2.5em] cursor-pointer overflow-hidden border-transparent text-black text-p-desktop font-medium rounded-xl bg-primary;
+    @apply w-[4.5em] md:w-[5em] h-[2.5em] text-p md:text-p-desktop cursor-pointer overflow-hidden border-transparent text-black font-medium rounded-lg md:rounded-2xl bg-primary;
   }
-
 }
