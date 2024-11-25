@@ -24,8 +24,8 @@ const ShiftControl = () => {
 
     return (
         <div className="bg-primary py-16">
-            <h3 className="text-center text-p md:text-p-desktop mb-4">Conoce las experiencias de nuestros clientes</h3>
-            <h2 className="font-bold text-center uppercase text-h2 md:text-h2-desktop mb-12">¿Qué es tener una buena gestión de turnos?</h2>
+            <h3 className="font-roboto text-center text-p md:text-p-desktop">Conoce las experiencias de nuestros clientes</h3>
+            <h2 className="font-poppins font-bold text-center text-h2 md:text-h2-desktop mb-8">¿Qué es tener una buena gestión de turnos?</h2>
             <Carousel
                 setApi={setApi}
                 plugins={[
@@ -43,19 +43,21 @@ const ShiftControl = () => {
                 <CarouselContent>
                     <CarouselItem>
                         <div className="flex justify-center items-center px-4">
-                            <div className="flex flex-col md:flex-row bg-white rounded-xl shadow-lg overflow-hidden max-w-[791px]">
-                                <div className="w-full md:w-[367px] h-[300px] md:h-[347px]">
-                                    <img
-                                        src="https://res.cloudinary.com/di0cvbfdb/image/upload/v1732486261/TurnOn/i2tutqvr4hhul6huu3l7.jpg"
-                                        alt="Buena gestión de turnos"
-                                        className="w-full h-full object-cover"
-                                    />
-                                </div>
-                                <div className="flex bg-secondary justify-center items-center w-full md:w-[424px] p-8">
-                                    <div>
-                                        <p className="text-center text-p md:text-p-desktop mb-7">"Antes dependía de mis ojos para llamar a los consultorios, pero ahora puedo buscar y agendar turnos yo mismo. Es fácil de usar y me siento mucho más independiente."</p>
-                                        <p className="text-center text-p md:text-p-desktop mb-4">Lucas Torres</p>
-                                        <p className="text-center text-small md:text-small-desktop">Profesor y escritor</p>
+                            <div className="flex flex-col md:flex-row max-w-[791px] w-full">
+                                <div className="md:flex md:flex-row w-full md:shadow-2xl md:rounded-xl overflow-hidden">
+                                    <div className="w-full md:w-[367px] h-[300px] md:h-[347px] rounded-xl shadow-xl overflow-hidden md:rounded-none md:shadow-none mb-4 md:mb-0">
+                                        <img
+                                            src="https://res.cloudinary.com/di0cvbfdb/image/upload/v1732486261/TurnOn/i2tutqvr4hhul6huu3l7.jpg"
+                                            alt="Buena gestión de turnos"
+                                            className="w-full h-full object-cover"
+                                        />
+                                    </div>
+                                    <div className="flex bg-secondary justify-center items-center w-full mx-auto md:w-[424px] p-10 md:p-8 rounded-xl shadow-xl md:rounded-none md:shadow-none -mt-12 md:mt-0 relative z-10 min-h-[320px] md:min-h-0">
+                                        <div className="mt-24">
+                                            <p className="font-roboto text-center text-p md:text-p-desktop mb-7 leading-tight">"Siempre se me complicaba coordinar las citas médicas de mis hijos. Ahora recibo recordatorios automáticos y puedo gestionar todo desde mi celular, incluso en horarios que antes eran imposibles. Me solucionó la vida."</p>
+                                            <p className="font-roboto text-center text-p md:text-p-desktop mb-4">Silvana Iglesias</p>
+                                            <p className="font-roboto text-center text-small md:text-small-desktop">CEO en Mercado Libre.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -63,19 +65,21 @@ const ShiftControl = () => {
                     </CarouselItem>
                     <CarouselItem>
                         <div className="flex justify-center items-center px-4">
-                            <div className="flex flex-col md:flex-row bg-white rounded-xl shadow-lg overflow-hidden max-w-[791px]">
-                                <div className="w-full md:w-[367px] h-[300px] md:h-[347px]">
-                                    <img
-                                        src="https://res.cloudinary.com/di0cvbfdb/image/upload/v1732486261/TurnOn/i2tutqvr4hhul6huu3l7.jpg"
-                                        alt="Buena gestión de turnos"
-                                        className="w-full h-full object-cover"
-                                    />
-                                </div>
-                                <div className="flex bg-secondary justify-center items-center w-full md:w-[424px] p-8">
-                                    <div>
-                                        <p className="text-center text-p md:text-p-desktop mb-7">"Antes dependía de mis ojos para llamar a los consultorios, pero ahora puedo buscar y agendar turnos yo mismo. Es fácil de usar y me siento mucho más independiente."</p>
-                                        <p className="text-center text-p md:text-p-desktop mb-4">Lucas Torres</p>
-                                        <p className="text-center text-small md:text-small-desktop">Profesor y escritor</p>
+                            <div className="flex flex-col md:flex-row max-w-[791px] w-full">
+                                <div className="md:flex md:flex-row w-full md:shadow-2xl md:rounded-xl overflow-hidden">
+                                    <div className="w-full md:w-[367px] h-[300px] md:h-[347px] rounded-xl shadow-xl overflow-hidden md:rounded-none md:shadow-none mb-4 md:mb-0">
+                                        <img
+                                            src="https://res.cloudinary.com/di0cvbfdb/image/upload/v1732486286/TurnOn/zup2gaboepf2bec7vbnj.jpg"
+                                            alt="Buena gestión de turnos"
+                                            className="w-full h-full object-cover"
+                                        />
+                                    </div>
+                                    <div className="flex bg-secondary justify-center items-center w-full mx-auto md:w-[424px] p-10 md:p-8 rounded-xl shadow-xl md:rounded-none md:shadow-none -mt-12 md:mt-0 relative z-10 min-h-[320px] md:min-h-0">
+                                        <div className="mt-24">
+                                            <p className="font-roboto text-center text-p md:text-p-desktop mb-7 leading-tight">"Antes dependía de mis hijos para llamar a los consultorios, pero ahora puedo buscar y agendar turnos yo mismo. Es fácil de usar y me siento mucho más independiente."</p>
+                                            <p className="font-roboto text-center text-p md:text-p-desktop mb-4">Lucas Torres</p>
+                                            <p className="font-roboto text-center text-small md:text-small-desktop">Profesor y escritor</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -83,19 +87,21 @@ const ShiftControl = () => {
                     </CarouselItem>
                     <CarouselItem>
                         <div className="flex justify-center items-center px-4">
-                            <div className="flex flex-col md:flex-row bg-white rounded-xl shadow-lg overflow-hidden max-w-[791px]">
-                                <div className="w-full md:w-[367px] h-[300px] md:h-[347px]">
-                                    <img
-                                        src="https://res.cloudinary.com/di0cvbfdb/image/upload/v1732486261/TurnOn/i2tutqvr4hhul6huu3l7.jpg"
-                                        alt="Buena gestión de turnos"
-                                        className="w-full h-full object-cover"
-                                    />
-                                </div>
-                                <div className="flex bg-secondary justify-center items-center w-full md:w-[424px] p-8">
-                                    <div>
-                                        <p className="text-center text-p md:text-p-desktop mb-7">"Antes dependía de mis ojos para llamar a los consultorios, pero ahora puedo buscar y agendar turnos yo mismo. Es fácil de usar y me siento mucho más independiente."</p>
-                                        <p className="text-center text-p md:text-p-desktop mb-4">Lucas Torres</p>
-                                        <p className="text-center text-small md:text-small-desktop">Profesor y escritor</p>
+                            <div className="flex flex-col md:flex-row max-w-[791px] w-full">
+                                <div className="md:flex md:flex-row w-full md:shadow-2xl md:rounded-xl overflow-hidden">
+                                    <div className="w-full md:w-[367px] h-[300px] md:h-[347px] rounded-xl shadow-xl overflow-hidden md:rounded-none md:shadow-none mb-4 md:mb-0">
+                                        <img
+                                            src="https://res.cloudinary.com/di0cvbfdb/image/upload/v1732486284/TurnOn/gfabi7q6ik3s3lgypmuo.png"
+                                            alt="Buena gestión de turnos"
+                                            className="w-full h-full object-cover"
+                                        />
+                                    </div>
+                                    <div className="flex bg-secondary justify-center items-center w-full mx-auto md:w-[424px] p-10 md:p-8 rounded-xl shadow-xl md:rounded-none md:shadow-none -mt-12 md:mt-0 relative z-10 min-h-[320px] md:min-h-0">
+                                        <div className="mt-24">
+                                            <p className="font-roboto text-center text-p md:text-p-desktop mb-7 leading-tight">"Con mi agenda tan ajustada, agendar turnos siempre era un problema. Desde que uso este sistema, puedo buscar médicos cerca de casa y pagar todo online en minutos. ¡Es súper práctico y eficiente!"</p>
+                                            <p className="font-roboto text-center text-p md:text-p-desktop mb-4">Mariano González</p>
+                                            <p className="font-roboto text-center text-small md:text-small-desktop">Desarrollador de software.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
