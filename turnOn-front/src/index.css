@@ -1,16 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 /* Tailwind CSS */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+/* Estilos personalizados para los botones de registro e inicio de sesión */
 @layer components {
   .button-register {
-    @apply  w-[7.2em] h-[2.5em] cursor-pointer overflow-hidden border-transparent text-white text-p-desktop font-medium rounded-2xl bg-accent;
+    @apply w-[6.2em] md:w-[7.2em] h-[2.5em] text-p md:text-p-desktop cursor-pointer overflow-hidden border-transparent text-white font-medium rounded-lg md:rounded-2xl bg-accent;
   }
 
+html{
+    font-family: "Roboto",serif;
+}
   .button-login {
-    @apply w-[4.5em] h-[2.5em] cursor-pointer overflow-hidden border-transparent text-black text-p-desktop font-medium rounded-xl bg-primary;
+    @apply w-[4.5em] md:w-[5em] h-[2.5em] text-p md:text-p-desktop cursor-pointer overflow-hidden border-transparent text-black font-medium rounded-lg md:rounded-2xl bg-primary;
   }
-
+}
+@layer base {
+  :root {
+    --radius: 0.5rem
+  }
 }

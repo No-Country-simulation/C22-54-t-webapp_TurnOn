@@ -1,14 +1,15 @@
 
 type ButtonProps = {
-    label: string;
+    label?: string;
     onClick?: () => void;
     className?: string;
+    children?: React.ReactNode;
 }
 
-export const Button = ({ label, onClick, className }: ButtonProps) => {
+export const Button = ({ label, onClick, className, children }: ButtonProps) => {
     return (
         <button onClick={onClick} className={className}>
-            {label}
+            {children || label}
         </button>
     ) 
 }
