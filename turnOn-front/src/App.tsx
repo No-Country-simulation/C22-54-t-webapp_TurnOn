@@ -5,7 +5,6 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
-import ShiftControl from "./components/ShiftControl/ShiftControl";
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
         <Route path="/login" element={<Login/>}/> 
         <Route path="/home" element={<Home />} />
         </Routes>
-        <ShiftControl></ShiftControl>
         <Footer/>    
     </Router>
   );
