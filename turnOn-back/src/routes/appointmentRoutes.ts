@@ -1,9 +1,9 @@
 import { Router } from 'express';
-import { getAllAppointments, createAppointment } from '../controllers/appointmentController';
+import { createAppointmentHandler } from '../controllers/appointmentController';
 
 const router = Router();
 
-router.get('/', getAllAppointments);
-router.post('/', createAppointment);
+// POST /api/appointments - Crear una nueva cita
+router.post('/',createAppointmentHandler);
 
 export default router;

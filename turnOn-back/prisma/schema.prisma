@@ -8,8 +8,36 @@ generator client {
 }
 
 model User {
-  id        Int      @id @default(autoincrement())
+  id          Int          @id @default(autoincrement())
+  name        String
+  email       String       @unique
+  phone       String?
+  password    String 
+  appointments Appointment[] @relation("UserAppointments")
+}
+
+
+model Specialty {
+  id        Int       @id @default(autoincrement())
   name      String
-  email     String   @unique
-  createdAt DateTime @default(now())
+  doctors   Doctor[]
+}
+
+model Doctor {
+  id            Int          @id @default(autoincrement())
+  name          String
+  specialtyId   Int?
+  rating        Decimal?      @db.Decimal(3, 2)
+  specialty     Specialty?    @relation(fields: [specialtyId], references: [id])
+  appointments  Appointment[] @relation("DoctorAppointments")
+}
+
+model Appointment {
+  id       Int       @id @default(autoincrement())
+  userId   Int
+  doctorId Int
+  date     DateTime
+
+  user     User       @relation("UserAppointments", fields: [userId], references: [id])
+  doctor   Doctor     @relation("DoctorAppointments", fields: [doctorId], references: [id])
 }

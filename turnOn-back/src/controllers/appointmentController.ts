@@ -1,25 +1,26 @@
 import { Request, Response } from 'express';
-import prisma from '../prismaClient';
+import { createAppointment } from '../services/appointmentService';
 
-export const getAllAppointments = async (req: Request, res: Response) => {
+export const createAppointmentHandler = async (req: Request, res: Response): Promise<void> => {
   try {
-    const appointments = await prisma.appointment.findMany({
-      include: { user: true },
-    });
-    res.json(appointments);
-  } catch (error) {
-    res.status(500).json({ error: 'Error obteniendo los turnos' });
-  }
-};
+    const { userId, doctorId, date } = req.body;
 
-export const createAppointment = async (req: Request, res: Response) => {
-  const { date, userId } = req.body;
-  try {
-    const appointment = await prisma.appointment.create({
-      data: { date: new Date(date), userId },
+    // Validación básica
+    if (!userId || !doctorId || !date) {
+      res.status(400).json({ error: 'Missing required fields' });
+      return;
+    }
+
+    // Llamar al servicio para crear la cita
+    const appointment = await createAppointment({
+      userId: parseInt(userId, 10),
+      doctorId: parseInt(doctorId, 10),
+      date: new Date(date),
     });
+
     res.status(201).json(appointment);
-  } catch (error) {
-    res.status(500).json({ error: 'Error creando el turno' });
+  } catch (error: any) {
+    console.error('Error creating appointment:', error);
+    res.status(500).json({ error: error.message });
   }
 };
