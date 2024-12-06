@@ -7,7 +7,6 @@
     "dev": "nodemon",
     "build": "tsc",
     "start": "node dist/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prisma:dev": "pnpm prisma migrate dev",
     "prisma:generate": "pnpm prisma generate",
     "prisma:studio": "pnpm prisma studio"
@@ -22,9 +21,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.1",
-    "jsonwebtoken": "^9.0.2",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^5.7.2"
+    "jsonwebtoken": "^9.0.2"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
@@ -35,6 +32,8 @@
     "@types/jsonwebtoken": "^9.0.7",
     "@types/node": "^22.10.1",
     "nodemon": "^3.1.7",
-    "prisma": "^6.0.1"
+    "prisma": "^6.0.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.2"
   }
 }
