@@ -1,8 +1,10 @@
 import {  useNavigate } from 'react-router-dom'; 
 import { useState, useEffect } from "react";
 import '../index.css'
+//biblioteca embla-carousel
 import Autoplay from "embla-carousel-autoplay";
 import Fade from "embla-carousel-fade";
+//
 import { Carousel, CarouselContent, CarouselItem } from "./ui/carousel";
 import { type CarouselApi } from "@/components/ui/carousel";
 import {Button} from './Button';
@@ -40,7 +42,8 @@ const Header = () => {
 
   return (
     <>
-      <Carousel
+      {/* Carousel = configura y renderiza */}
+      <Carousel  
         setApi={setApi}
         plugins={[
           Autoplay({ delay: 4000, stopOnInteraction: false }),
@@ -49,8 +52,8 @@ const Header = () => {
         opts={{ loop: true }}
         className='mb-8'
       >
-        <CarouselContent>
-          <CarouselItem>
+        <CarouselContent> {/* contenedor para los elementos del carruse */}
+          <CarouselItem>  
             <div className="relative flex flex-col items-start justify-center w-full h-[650px] md:h-[577px]">
               {/* Contenedor de texto */}
               <div className="max-w-md text-left relative z-20 p-7 md:p-0 md:ml-20">
@@ -140,19 +143,21 @@ const Header = () => {
             </div>
           </CarouselItem>
         </CarouselContent>
+
+        {/* Botones de navegación del carrusel */}
+        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 z-20 flex justify-center space-x-2">
+          {[0, 1, 2].map((index) => (
+            <button
+              key={index}
+              onClick={() => handleSelect(index)}
+              className={`w-3 h-3 rounded-full transition-colors duration-300 ${current === index ? 'bg-white border border-dark-gray' : 'bg-dark-gray'}`}
+              aria-label={`Go to slide ${index + 1}`}
+            />
+          ))}
+        </div>
       </Carousel>
 
-      {/* Botones de navegación del carrusel */}
-      <div className='flex justify-center space-x-2 mt-4 z-20'>
-        {[0, 1, 2].map((index) => (
-          <button
-            key={index}
-            onClick={() => handleSelect(index)}
-            className={`w-3 h-3 rounded-full transition-colors duration-300 ${current === index ? 'bg-white border border-dark-gray' : 'bg-dark-gray'}`}
-            aria-label={`Go to slide ${index + 1}`}
-          />
-        ))}
-      </div>
+
     </>
   );
 };
