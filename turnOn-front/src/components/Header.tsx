@@ -156,8 +156,6 @@ const Header = () => {
           ))}
         </div>
       </Carousel>
-
-
     </>
   );
 };
