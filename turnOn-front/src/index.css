@@ -24,18 +24,16 @@
     @apply w-[15em] h-[2.6em] text-p md:text-p-desktop cursor-pointer overflow-hidden border-transparent text-white font-medium rounded-lg md:rounded-2xl bg-accent;
   }
 
-  .header-section {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 0) 70%), url('./assets/hm1.webp');
-    height: 577px;
-    background-size: cover;
-    background-position: center;
-  }
+ 
   @media (max-width: 768px) {
-    .header-section {
-      background-image: linear-gradient(to right, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 0) 100%), url('./assets/hm1.webp');
-      background-position-x: 70%; 
-      background-position-y: center;
+    .object-position-mobile {
+      object-position:  80% center ;
+    }
+  }
 
+  @media (max-width: 768px) {
+    .object-position-mobile-3 {
+      object-position:  60% center ;
     }
   }
 }
