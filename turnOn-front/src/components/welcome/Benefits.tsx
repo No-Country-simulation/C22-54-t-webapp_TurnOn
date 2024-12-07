@@ -2,10 +2,11 @@ import { benefits } from "../../mocks/benefits";
 
 const Benefits = () => {
   return (
+    
     <section className="max-w-[560px]  mx-4 my-10">
       <div className="flex flex-col gap-4 text-center [&>p]:text-small [&>p]:max-w-md items-center">
-        <p>Algunos de nuestros beneficios.</p>
-        <h2 className="text-h2 font-bold font-sans">¿Por qué usar TurnON?</h2>
+        <p >Algunos de nuestros beneficios.</p>
+        <h2 className="text-h2 font-bold">¿Por qué usar TurnON?</h2>
         <p>
           Nuestro objetivo es ayudarte a hacer más fácil el proceso de cuidar tu
           salud y sabemos que la gestión de turnos es una de las mejores maneras

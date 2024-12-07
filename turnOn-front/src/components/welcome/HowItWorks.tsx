@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const HowItWorks = () => {
     return (
-        <div className="bg-primary py-4">
+        <section className="bg-primary py-4">
             <div className="max-w-[1200px] mx-auto px-4">
                 <h3 className="font-roboto text-center text-p md:text-p-desktop mt-4">
                     Prueba una demo GRATIS.
@@ -23,14 +23,14 @@ const HowItWorks = () => {
                         de servicios para la actual y la próxima semana.
                     </p>
                     <Link
-                        className="font-roboto text-center text-p md:text-p-desktop shadow-lg bg-accent py-2 px-8 md:px-10 rounded-2xl text-white"
+                        className="font-roboto text-center text-p md:text-p-desktop shadow-lg bg-accent hover:text-black hover:bg-accent-2 py-2 px-8 md:px-10 rounded-2xl text-white"
                         to="/"
                     >
                         Mira la demo
                     </Link>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
