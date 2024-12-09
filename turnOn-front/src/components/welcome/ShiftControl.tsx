@@ -24,8 +24,8 @@ const ShiftControl = () => {
 
     return (
         <div className="bg-primary py-16">
-            <h3 className="font-roboto text-center text-p md:text-p-desktop">Conoce las experiencias de nuestros clientes</h3>
-            <h2 className="font-poppins font-bold text-center text-h2 md:text-h2-desktop mb-8">¿Qué es tener una buena gestión de turnos?</h2>
+            <h3 className="font-roboto text-center text-p md:text-p-desktop mb-3">Conoce las experiencias de nuestros clientes</h3>
+            <h2 className="font-poppins font-bold text-center text-3xl md:text-h2-desktop mb-8">¿Qué es tener una buena gestión de turnos?</h2>
             <Carousel
                 setApi={setApi}
                 plugins={[
