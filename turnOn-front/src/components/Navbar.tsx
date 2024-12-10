@@ -1,6 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom'; 
 import { Button } from './Button';
-import { HamburguerMenu } from './HamburguerMenu';
+import { HamburguerMenu } from '../pages/Home/HamburguerHome';
 
 
 export const Navbar = () => {
@@ -17,8 +17,10 @@ export const Navbar = () => {
     return (
         <nav className= 'flex items-center justify-between md:justify-around bg-white m-5 '>
             <section>
-                <img src='/logo.svg' alt='Logo TurnOn' className='w-[91px] h-[36px] '/>
-            </section>
+                <Link to='/'>
+                    <img src='/logo.svg' alt='Logo TurnOn' className='w-[91px] h-[36px]' />
+                </Link>
+            </section>           
 
             <section className='hidden md:flex'>
                 <ul className= 'flex space-x-4 md:space-x-8 text-p-desktop text-dark-gray'>
@@ -26,7 +28,7 @@ export const Navbar = () => {
                         <Link to='/'>Inicio</Link>
                     </li>
                     <li>
-                        <Link to='/'>Servicios</Link>
+                        <Link to='/services'>Servicios</Link>
                     </li>
                     <li>
                         <Link to='/'>Planes</Link>

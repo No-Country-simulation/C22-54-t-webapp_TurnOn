@@ -1,4 +1,4 @@
-import { Carousel, CarouselContent, CarouselItem } from "../ui/carousel";
+import { Carousel, CarouselContent, CarouselItem } from "../../components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 import Fade from "embla-carousel-fade";
 import { useState, useEffect } from "react";

@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons"; 
-import { Button } from "./Button";
+import { Button } from "../../components/Button";
 import { Link } from 'react-router-dom';
 
-export const HamburguerMenu = () => {
+export const HamburguerServicios = () => {
     const [isOpen, setIsOpen] = useState(false)
 
     const toggleMenu = () =>{
@@ -37,10 +37,19 @@ export const HamburguerMenu = () => {
                                     <Link to='/services' onClick={toggleMenu}>Servicios</Link>
                                 </li>
                                 <li>
-                                    <Link to='/plans' onClick={toggleMenu}>Planes</Link>
+                                    <Link to='/plans' onClick={toggleMenu}>Especialistas</Link>
                                 </li>
                                 <li>
-                                    <Link to='/companies' onClick={toggleMenu}>Empresas</Link>
+                                    <Link to='/companies' onClick={toggleMenu}>Facturas</Link>
+                                </li>
+                                <li>
+                                    <Link to='/record' onClick={toggleMenu}>Historial</Link>
+                                </li>
+                                <li>
+                                    <Link to='/configuration' onClick={toggleMenu}>Configuraciones</Link>
+                                </li>
+                                <li>
+                                    <Link to='/help' onClick={toggleMenu}>Ayuda y soporte</Link>
                                 </li>
                             </ul>                                        
                         </div>
@@ -50,4 +59,3 @@ export const HamburguerMenu = () => {
         </nav>
     )
 }
-

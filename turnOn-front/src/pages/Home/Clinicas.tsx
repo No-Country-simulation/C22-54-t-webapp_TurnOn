@@ -1,10 +1,10 @@
 import { cn } from "@/lib/utils";
 import Marquee from '@/components/ui/marquee'
-import Clinica1 from '../assets/Cllinica1.png';
-import Clinica2 from '../assets/Cllinica2.png';
-import Clinica3 from '../assets/Cllinica3.png';
-import Clinica4 from '../assets/Cllinica4.png';
-import Clinica5 from '../assets/Cllinica5.png';
+import Clinica1 from '../../assets/Cllinica1.png';
+import Clinica2 from '../../assets/Cllinica2.png';
+import Clinica3 from '../../assets/Cllinica3.png';
+import Clinica4 from '../../assets/Cllinica4.png';
+import Clinica5 from '../../assets/Cllinica5.png';
 
 
 const reviews = [
