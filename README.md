@@ -30,11 +30,11 @@ Render  
 
 | Nombre | Rol     | Linkedin               | Portafolio               |
 | :-------- | :------- | :------------------------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key | **Required**. Your API key |
+| `Angelo Choque` | `Frontend` | **[LinkedIn](https://www.linkedin.com/in/-wilmer-salazar/)**. Your API key | **Required**.  [Github](https://github.com/wkatir) |
 
 Silvina Zalazar Project Manager y Backend [LinkedIn](https://www.linkedin.com/in/silvana-rocio-zalazar/) [Github](https://github.com/SilvanaZ)
 Walkiria Arteaga UX/UI [LinkedIn](https://www.linkedin.com/in/walkiria-arteaga-10501925b/) [Behance](https://www.behance.net/walkiriaarteaga1)
-Angelo Choque Frontend [LinkedIn](https://www.linkedin.com/in/-wilmer-salazar/) [Github](https://github.com/wkatir)
+  
 Wilmer Salazar Frontend [LinkedIn](https://www.linkedin.com/in/-wilmer-salazar/) [Github](https://github.com/wkatir)
 Mariano Xinos Frontend [LinkedIn](https://www.linkedin.com/in/-wilmer-salazar/) [Github](https://github.com/wkatir) 
 
