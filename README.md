@@ -20,7 +20,7 @@ Trello
 ### UX/UI
 Figma y Photoshop 
 
-[![Figma](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)]([https://twitter.com/](https://www.figma.com/proto/KJGbeq5EaKiVlsV9JxPbnD/TurnON?page-id=0%3A1&node-id=428-5141&node-type=canvas&viewport=-6496%2C-12604%2C0.26&t=GAYBSbn5d3VwE1jB-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=428%3A5141&show-proto-sidebar=1))
+[![Figma](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)]([[https://twitter.com/](https://www.figma.com/proto/KJGbeq5EaKiVlsV9JxPbnD/TurnON?page-id=0%3A1&node-id=428-5141&node-type=canvas&viewport=-6496%2C-12604%2C0.26&t=GAYBSbn5d3VwE1jB-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=428%3A5141&show-proto-sidebar=1)])
 
 ### Frontend
 React, Vite, Tailwind y Typescript
