@@ -26,7 +26,12 @@ Node js, Express, Typescript, Prisma y PostgreSQL
 Deploy
 Render  
 
-### Colaboradores Nombre - Rol - Linkedin - Portafolio 
+### Colaboradores  -  - Linkedin - Portafolio
+
+| Nombre | Rol     | Linkedin               |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
+
 Silvina Zalazar Project Manager y Backend [LinkedIn](https://www.linkedin.com/in/silvana-rocio-zalazar/) [Github](https://github.com/SilvanaZ)
 Walkiria Arteaga UX/UI [LinkedIn](https://www.linkedin.com/in/walkiria-arteaga-10501925b/) [Behance](https://www.behance.net/walkiriaarteaga1)
 Angelo Choque Frontend [LinkedIn](https://www.linkedin.com/in/-wilmer-salazar/) [Github](https://github.com/wkatir)
