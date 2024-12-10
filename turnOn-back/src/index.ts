@@ -2,7 +2,10 @@ import express, { Request, Response, NextFunction } from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import appointmentRoutes from './routes/appointmentRoutes';
-import userRoutes from './routes/userRoutes';
+import userRoutes from './routes/userRoutes';;
+import doctorRoutes from './routes/doctorRoutes';
+import specialtyRoutes from './routes/specialtyRoutes';
+
 
 // Configurar variables de entorno
 dotenv.config();
@@ -23,6 +26,8 @@ app.get('/', (req: Request, res: Response) => {
 
 // Rutas principales
 app.use('/api/users', userRoutes);
+app.use('/api', doctorRoutes);
+app.use('/api', specialtyRoutes);
 app.use('/api/appointments', appointmentRoutes);
 
 // Middleware de manejo de errores
