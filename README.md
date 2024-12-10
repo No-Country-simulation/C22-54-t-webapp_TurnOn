@@ -14,19 +14,19 @@ distintas especialidades.  
 - Agendar citas con médicos cerca de mi trabajo para poder ir en la mañana y volver tranquilamente sin perder toda la jornada.
 
 ### Tecnologías utilizadas
-#### Project Manager
+### Project Manager
 Trello
 
-#### UX/UI
+### UX/UI
 Figma y Photoshop 
 
-#### Frontend
+### Frontend
 React, Vite, Tailwind y Typescript
 
-#### Backend
+### Backend
 Node js, Express, Typescript, Prisma y PostgreSQL
 
-#### Deploy
+### Deploy
 Render  
 
 ### Colaboradores
