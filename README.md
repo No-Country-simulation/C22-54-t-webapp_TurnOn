@@ -14,7 +14,7 @@ distintas especialidades.  
 - Agendar citas con médicos cerca de mi trabajo para poder ir en la mañana y volver tranquilamente sin perder toda la jornada.
 
 ## Tecnologías utilizadas
--------------------------------------------------------------------------------------
+
 ### Project Manager
 Trello
 
