@@ -21,7 +21,7 @@ Trello
 Figma y Photoshop 
 
 ### Frontend
-[![React](68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5265616374253230486f6f6b253230466f726d2d4543353939302e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d52656163742d486f6f6b2d466f726d266c6f676f436f6c6f723d7768697465)], Vite, Tailwind y Typescript
+React, Vite, Tailwind y Typescript
 
 ### Backend
 Node js, Express, Typescript, Prisma y PostgreSQL
