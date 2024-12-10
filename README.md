@@ -9,10 +9,10 @@ distintas especialidades.  
 ### DEMO  
 
 ### Funcionalidades como usuario:  
-1 Conocer como funciona la plataforma de TurnON y que ofrece.
-2 Revisar varias opciones de atención disponibilidades para elegir la más adecuada. 
-3 Agendar citas con médicos cerca de mi trabajo para poder ir en la mañana y volver tranquilamente sin perder toda la jornada.
-4 Cancelar citas con facilidad.
+- 1 Conocer como funciona la plataforma de TurnON y que ofrece.
+- 2 Revisar varias opciones de atención disponibilidades para elegir la más adecuada. 
+- 3 Agendar citas con médicos cerca de mi trabajo para poder ir en la mañana y volver tranquilamente sin perder toda la jornada.
+- 4 Cancelar citas con facilidad.
 
 ### Tecnologías utilizadas
 Project Manager
