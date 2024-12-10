@@ -48,3 +48,6 @@ Proyecto en [Trello](https://trello.com/b/E4gWCkiN/turnon-equipo-c22).
 ## Mockups🖼
 
 ## Agradecimientos
+
+A No Country por el espacio y reto para trabajar en equipo y avanzar en nuestros caminos profesionales.
+A referencias como [WAKI](https://github.com/No-Country-simulation/h2-04-python-react); [EUREKA](https://github.com/nemgf/Portfolio/tree/main/Portfolio/Eureka); [Verónica Marseillan y Mathias Sielecki](https://dspaceapi.live.udesa.edu.ar/server/api/core/bitstreams/1acd9eb7-5d9b-429b-8fb0-3016c9bc215e/content); y [Tunos.app](https://turnos.app/).
