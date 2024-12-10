@@ -33,8 +33,9 @@ Gestiona tus turnos y obtén una panorámica rápida y a cualquier hora de a cua
 
 <img src="https://img.shields.io/badge/PostgreSQL-orangered?style=for-the-badge&logo=PostgreSQL&logoColor=white" />
 
-### Deploy:  
-<img src="https://img.shields.io/badge/Render-gray?style=for-the-badge&logo=Render&logoColor=white" />
+### Deploys:  
+- Backend:  <img src="https://img.shields.io/badge/Render-gray?style=for-the-badge&logo=Render&logoColor=white" />
+- Frontend:  <img src="https://img.shields.io/badge/Vercel-purple?style=for-the-badge&logo=Vercel&logoColor=white" />
 
 ## Colaboradores👥
 
