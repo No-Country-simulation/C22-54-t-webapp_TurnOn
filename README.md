@@ -20,6 +20,9 @@ Trello
 ### UX/UI
 Figma y Photoshop 
 
+[![Figma](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)]
+
+
 ### Frontend
 React, Vite, Tailwind y Typescript
 
