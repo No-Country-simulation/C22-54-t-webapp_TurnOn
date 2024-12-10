@@ -13,7 +13,8 @@ distintas especialidades.  
 - Revisar varias opciones de atención disponibilidades para elegir la más adecuada. 
 - Agendar citas con médicos cerca de mi trabajo para poder ir en la mañana y volver tranquilamente sin perder toda la jornada.
 
-### Tecnologías utilizadas
+## Tecnologías utilizadas
+-------------------------------------------------------------------------------------
 ### Project Manager
 Trello
 
