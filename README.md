@@ -1,10 +1,8 @@
 ##  TURN🟢N
-Con TurnON podrás gestionar de manera efectiva tu acceso al sistema de salud, conocer
-la disponibilidad de médicos en Buenos Aires y agendar citas con ellos tanto si trabajan  a domicilio,
-por telemedicina, en consultorios individuales o colectivos o en clínicas.
+Con TurnON podrás gestionar tu acceso al sistema de salud en Buenos Aires, Argentina. Conocer la disponibilidad de médicos y agendar citas con ellos tanto si trabajan a domicilio,
+por telemedicina, en consultorios individuales o en clínicas.
 
-Gestiona tus turnos y obtén una panorámica rápida de a cuantos especialistas puedes acudir para
-distintas especialidades.  
+Gestiona tus turnos y obtén una panorámica rápida y a cualquier hora de a cuantos especialistas puedes acudir para distintas especialidades.  
 
 ## DEMO  
 
