@@ -5,6 +5,7 @@ import Register from "./pages/Register";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import Welcome from "./pages/Welcome";
+import DatesCalendar from "./pages/DatesCalendar";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/calendar" element={<DatesCalendar />} />
         </Routes>
       </main>
       <Footer />
