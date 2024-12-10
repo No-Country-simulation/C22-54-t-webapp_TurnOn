@@ -31,12 +31,10 @@ Render  
 | Nombre | Rol     | Linkedin               | Portafolio               |
 | :-------- | :------- | :------------------------- | :------------------------- |
 | `Angelo Choque` | `Frontend` | [LinkedIn](https://www.linkedin.com/in/angelochoquemaravi/) | [Github](https://github.com/angeloChoque) |
-
-Silvina Zalazar Project Manager y Backend [LinkedIn](https://www.linkedin.com/in/silvana-rocio-zalazar/) [Github](https://github.com/SilvanaZ)
-Walkiria Arteaga UX/UI [LinkedIn](https://www.linkedin.com/in/walkiria-arteaga-10501925b/) [Behance](https://www.behance.net/walkiriaarteaga1)
-  
-Wilmer Salazar Frontend [LinkedIn](https://www.linkedin.com/in/-wilmer-salazar/) [Github](https://github.com/wkatir)
-Mariano Xinos Frontend [LinkedIn](https://www.linkedin.com/in/mariano-xinos-5b9b40113/) [Github](https://github.com/MarianoXinos1#my-github-stats) 
+| `Mariano Xinos` | `Frontend` | [LinkedIn](https://www.linkedin.com/in/mariano-xinos-5b9b40113/) | [Github](https://github.com/MarianoXinos1#my-github-stats) |
+| `Silvina Zalazar` | `Project Manager y Backend` | [LinkedIn](https://www.linkedin.com/in/silvana-rocio-zalazar/) | [Github](https://github.com/SilvanaZ) |
+| `Walkiria Arteaga` | `UX/UI` | [LinkedIn](https://www.linkedin.com/in/walkiria-arteaga-10501925b/) | [Behance](https://www.behance.net/walkiriaarteaga1) |
+| `Wilmer Salazar` | `Frontend` | [LinkedIn](https://www.linkedin.com/in/-wilmer-salazar/) | [Github](https://github.com/wkatir) |
 
 ### Prototipo
 Prototipo creado en Figma, ir al [prototipo](https://www.figma.com/proto/KJGbeq5EaKiVlsV9JxPbnD/TurnON?page-id=0%3A1&node-id=428-5141&node-type=canvas&viewport=-6496%2C-12604%2C0.26&t=GAYBSbn5d3VwE1jB-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=428%3A5141&show-proto-sidebar=1).
