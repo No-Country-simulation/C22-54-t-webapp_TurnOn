@@ -13,7 +13,15 @@ const app = express();
 app.use(cors());
 app.use(express.json()); // Middleware nativo para manejar JSON
 
-// 
+// Ruta base para verificar el estado del servidor
+app.get('/', (req: Request, res: Response) => {
+  res.status(200).json({
+    message: 'API is running successfully!',
+    timestamp: new Date().toISOString(),
+  });
+});
+
+// Rutas principales
 app.use('/api/users', userRoutes);
 app.use('/api/appointments', appointmentRoutes);
 
