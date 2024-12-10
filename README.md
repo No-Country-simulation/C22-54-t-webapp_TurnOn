@@ -26,9 +26,9 @@ Node js, Express, Typescript, Prisma y PostgreSQL
 Deploy
 Render  
 
-### Colaboradores  -  - Linkedin - Portafolio
+### Colaboradores
 
-| Nombre | Rol     | Linkedin               |
+| Nombre | Rol     | Linkedin               | Portafolio               |
 | :-------- | :------- | :------------------------- |
 | `api_key` | `string` | **Required**. Your API key |
 
