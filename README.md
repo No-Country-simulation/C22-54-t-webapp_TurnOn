@@ -29,8 +29,8 @@ Render  
 ### Colaboradores
 
 | Nombre | Rol     | Linkedin               | Portafolio               |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
+| :-------- | :------- | :------------------------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key | **Required**. Your API key |
 
 Silvina Zalazar Project Manager y Backend [LinkedIn](https://www.linkedin.com/in/silvana-rocio-zalazar/) [Github](https://github.com/SilvanaZ)
 Walkiria Arteaga UX/UI [LinkedIn](https://www.linkedin.com/in/walkiria-arteaga-10501925b/) [Behance](https://www.behance.net/walkiriaarteaga1)
