@@ -1,23 +1,25 @@
-import { Navbar } from "./components/Navbar";
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import Home from "./pages/Home";
+import Login from "./components/Login";
+import Register from "./components/Register";
+import Home from "./pages/Home/Home";
 import Footer from "./components/Footer";
-import Welcome from "./pages/Welcome";
 import DatesCalendar from "./pages/DatesCalendar";
+import Welcome from "./pages/Home/Welcome";
+import { Servicios } from "./pages/Servicios/Servicios";
 
 function App() {
   return (
     <Router>
-      <Navbar />
       <main>
-        <Routes>
-          <Route path="/" element={<Welcome />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/home" element={<Home />} />
+        <Routes>    
+          <Route path="/" element={<Welcome/>} />
+          <Route path="/register" element={<Register/>} />
+          <Route path="/login" element={<Login/>} />
+          <Route path="/home" element={<Home/>} />
           <Route path="/calendar" element={<DatesCalendar />} />
+          <Route path="/services" element={<Servicios/>} />
+          
         </Routes>
       </main>
       <Footer />
