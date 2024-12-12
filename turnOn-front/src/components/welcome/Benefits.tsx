@@ -1,26 +1,57 @@
-import { benefits } from "../../mocks/benefits";
-
 const Benefits = () => {
   return (
-    
-    <section className="max-w-[560px]  mx-4 my-10">
-      <div className="flex flex-col gap-4 text-center [&>p]:text-small [&>p]:max-w-md items-center">
-        <p >Algunos de nuestros beneficios.</p>
-        <h2 className="text-h2 font-bold">¿Por qué usar TurnON?</h2>
-        <p>
+    <section className="bg-primary py-10">
+      <div className="max-w-[1200px] mx-auto px-4">
+        <p className="font-roboto text-p md:text-p-desktop mt-4 text-center">
+          Algunos de nuestros beneficios.
+        </p>
+        <h2 className="font-poppins font-bold text-h2 md:text-h2-desktop mt-4 mb-4 md:mb-6 text-center">
+          ¿Por qué usar TurnON?
+        </h2>
+        <p className="font-roboto text-p md:text-p-desktop mt-4 text-center">
           Nuestro objetivo es ayudarte a hacer más fácil el proceso de cuidar tu
           salud y sabemos que la gestión de turnos es una de las mejores maneras
           de empezar.
         </p>
+        <div className="flex flex-wrap -mx-4 mt-9">
+          <div className="w-full md:w-1/2 px-3 mb-8">
+            <div className="max-w-[587px] h-[226px] bg-secondary rounded-2xl shadow-lg flex items-center justify-center">
+              <div className="max-w-[307px]">
+                <h3 className="text-h2 md:text-h3-desktop font-poppins font-bold text-center">
+                  Podrás elegir entre muchos profesionales
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div className="w-full md:w-1/2 px-3 mb-8">
+            <div className="max-w-[587px] h-[226px] bg-secondary-2 rounded-2xl shadow-lg flex items-center justify-center">
+              <div className="max-w-[307px]">
+                <h3 className="text-h2 md:text-h3-desktop font-poppins font-bold text-center">
+                  Retomarás el control de tu tiempo
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div className="w-full md:w-1/2 px-3 mb-8">
+            <div className="max-w-[587px] h-[226px] bg-secondary-2 rounded-2xl shadow-lg flex items-center justify-center">
+              <div className="max-w-[307px]">
+                <h3 className="text-h2 md:text-h3-desktop font-poppins font-bold text-center">
+                  Disminuirá la probabilidad de olvidar tus citas
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div className="w-full md:w-1/2 px-3 mb-8">
+            <div className="max-w-[587px] h-[226px] bg-secondary-3 rounded-2xl shadow-lg flex items-center justify-center">
+              <div className="max-w-[307px]">
+                <h3 className="text-h2 md:text-h3-desktop font-poppins font-bold text-center">
+                  Tu información estará bien resguardada
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="flex flex-col justify-center items-center gap-6 mt-6  [&>article]:w-full [&>article]:h-[225px] [&>article]:flex [&>article]:px-4 [&>article]:text-center [&>article]:items-center [&>article]:rounded-2xl  [&>article>h3]:text-h3 [&>article>h3]:font-sans [&>article>h3]:font-bold [&>article>h3]:text-black-80">
-        {benefits.map((article, index) => (
-          <article key={index} className={`shadow-lg ${article.bg}`}>
-            <h3>{article.text}</h3>
-          </article>
-        ))}
-      </div>
-      ;
     </section>
   );
 };
