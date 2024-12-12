@@ -1,10 +1,10 @@
 import Accordion from "../components/Accordion";
 import Header from "../components/Header";
 import {Clinicas} from '../components/Clinicas'
-import ShiftControl from "@/components/welcome/ShiftControl";
-import HowItWorks from "@/components/welcome/HowItWorks";
-import AllInOne from "@/components/welcome/AllInOne";
-import Benefits from "@/components/welcome/Benefits";
+import ShiftControl from "@/components/home/ShiftControl";
+import HowItWorks from "@/components/home/HowItWorks";
+import AllInOne from "@/components/home/AllInOne";
+import Benefits from "@/components/home/Benefits";
 
 export default function Welcome() {
   return (
