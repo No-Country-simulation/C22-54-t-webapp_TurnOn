@@ -21,7 +21,7 @@ const Header = () => {
   const [current, setCurrent] = useState(0);
 
   const handleHeaderClick = () => {
-    navigate('/');
+    navigate('/calendar');
   };
 
   //selecciona el indice del elemento y lo actualiza.
