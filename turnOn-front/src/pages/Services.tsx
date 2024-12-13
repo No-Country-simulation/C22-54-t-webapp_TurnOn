@@ -1,4 +1,4 @@
-import { services } from "../mocks/benefits";
+import { services } from "../mocks/services";
 
 const ServicesPage = () => {
   return (
