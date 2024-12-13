@@ -63,6 +63,14 @@ Prototipo creado en Figma, ir al [prototipo](https://www.figma.com/proto/KJGbeq5
 Proyecto en [Trello](https://trello.com/b/E4gWCkiN/turnon-equipo-c22).
 
 ## Mockups🖼
+Mobile:
+![Grupo 1](https://github.com/user-attachments/assets/979f4031-7e7f-4191-b408-6768a6b91ecb)
+![Grupo 2](https://github.com/user-attachments/assets/c841ca3b-a82b-4590-8611-7d8f5bb93391)
+![Grupo 3](https://github.com/user-attachments/assets/f66fe8b4-fec1-494a-b9a9-36440c37c116)
+
+Desktop:
+![Capa 2](https://github.com/user-attachments/assets/c1259cbd-a0b1-4336-857d-9dddcc694b4d)
+![Capa 3](https://github.com/user-attachments/assets/cf491787-134e-4a6d-b66d-71bf54cf37f2)
 
 ## Agradecimientos
 

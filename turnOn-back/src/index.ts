@@ -2,7 +2,10 @@ import express, { Request, Response, NextFunction } from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import appointmentRoutes from './routes/appointmentRoutes';
-import userRoutes from './routes/userRoutes';
+import userRoutes from './routes/userRoutes';;
+import doctorRoutes from './routes/doctorRoutes';
+import specialtyRoutes from './routes/specialtyRoutes';
+
 
 // Configurar variables de entorno
 dotenv.config();
@@ -13,8 +16,18 @@ const app = express();
 app.use(cors());
 app.use(express.json()); // Middleware nativo para manejar JSON
 
-// 
+// Ruta base para verificar el estado del servidor
+app.get('/', (req: Request, res: Response) => {
+  res.status(200).json({
+    message: 'API is running successfully!',
+    timestamp: new Date().toISOString(),
+  });
+});
+
+// Rutas principales
 app.use('/api/users', userRoutes);
+app.use('/api', doctorRoutes);
+app.use('/api', specialtyRoutes);
 app.use('/api/appointments', appointmentRoutes);
 
 // Middleware de manejo de errores

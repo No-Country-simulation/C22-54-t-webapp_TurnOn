@@ -26,13 +26,13 @@ export const Navbar = () => {
                         <Link to='/'>Inicio</Link>
                     </li>
                     <li>
-                        <Link to='/'>Servicios</Link>
+                        <Link to='/services'>Servicios</Link>
                     </li>
                     <li>
-                        <Link to='/'>Planes</Link>
+                        <Link to='/plans'>Planes</Link>
                     </li>
                     <li>
-                        <Link to='/'>Empresas</Link>
+                        <Link to='/companies'>Empresas</Link>
                     </li>
                 </ul>
             </section>
