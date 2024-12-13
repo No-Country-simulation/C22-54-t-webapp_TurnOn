@@ -52,8 +52,8 @@ export function Clinicas() {
   return (
     <section className="relative flex h-[340px] w-full flex-col items-center justify-center overflow-hidden bg-gray-50 ">
       <div className="flex flex-col items-center text-center max-w-96 md:max-w-none px-2 ">
-        <p className="text-p  mb-2 ">Líderes en el sector</p>
-        <h3 className="text-3xl font-bold mb-6 ">Con la confianza de clínicas como:</h3>
+        <p className="text-p md:text-p-desktop mb-3">Líderes en el sector</p>
+        <h3 className="text-3xl md:text-h2-desktop font-bold mb-6 ">Con la confianza de clínicas como:</h3>
       </div>
       
       <Marquee pauseOnHover className="[--duration:20s]">

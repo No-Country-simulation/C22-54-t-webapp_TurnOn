@@ -31,16 +31,16 @@ export const HamburguerMenu = () => {
 
                             <ul className="space-y-4 text-p-desktop">
                                 <li>
-                                    <Link to='/'>Inicio</Link>
+                                    <Link to='/' onClick={toggleMenu}>Inicio</Link>
                                 </li>
                                 <li>
-                                    <Link to='/services'>Servicios</Link>
+                                    <Link to='/services' onClick={toggleMenu}>Servicios</Link>
                                 </li>
                                 <li>
-                                    <Link to='/plans'>Planes</Link>
+                                    <Link to='/plans' onClick={toggleMenu}>Planes</Link>
                                 </li>
                                 <li>
-                                    <Link to='/companies'>Empresas</Link>
+                                    <Link to='/companies' onClick={toggleMenu}>Empresas</Link>
                                 </li>
                             </ul>                                        
                         </div>

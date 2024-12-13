@@ -5,12 +5,8 @@ type ButtonProps = {
   children?: React.ReactNode;
 };
 
-export const Button = ({
-  label,
-  onClick,
-  className,
-  children,
-}: ButtonProps) => {
+export const Button = ({ label, onClick, className, children,}: ButtonProps) => {
+  
   return (
     <button onClick={onClick} className={className}>
       {children || label}

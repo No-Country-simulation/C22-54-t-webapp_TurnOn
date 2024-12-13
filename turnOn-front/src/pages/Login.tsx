@@ -31,7 +31,7 @@ const Login: React.FC = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex items-center justify-center min-h-screen bg-gray-100 py-16">
       <div className="bg-white rounded-lg shadow-lg overflow-hidden md:flex md:w-4/5">
         {/* Formulario */}
         <div className="md:w-1/2 p-8">
