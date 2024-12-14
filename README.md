@@ -20,28 +20,20 @@ Gestiona tus turnos y obtén una panorámica rápida y a cualquier hora de a cua
 
 ### UX/UI:
 
-<img src="https://img.shields.io/badge/Figma-black?style=for-the-badge&logo=figma&logoColor=white" />
-<img src="https://img.shields.io/badge/Photoshop-blue?style=for-the-badge&logo=photoshop&logoColor=white" />
+<img src="https://img.shields.io/badge/Figma-black?style=for-the-badge&logo=figma&logoColor=white" /> <img src="https://img.shields.io/badge/Photoshop-blue?style=for-the-badge&logo=photoshop&logoColor=white" />
 
 ### Frontend:
 
-<img src="https://img.shields.io/badge/REACT-black?style=for-the-badge&logo=react&logoColor=cyan" />
-<img src="https://img.shields.io/badge/VITE-800080?style=for-the-badge&logo=vite&logoColor=yellow&violet" />
-<img src="https://img.shields.io/badge/TAILWIND-008B8B?style=for-the-badge&logo=tailwind&logoColor=green" />
-<img src="https://img.shields.io/badge/TYPESCRIPT-4169E1?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/REACT-black?style=for-the-badge&logo=react&logoColor=cyan" /> <img src="https://img.shields.io/badge/VITE-800080?style=for-the-badge&logo=vite&logoColor=yellow&violet" /> <img src="https://img.shields.io/badge/TAILWIND-008B8B?style=for-the-badge&logo=tailwind&logoColor=green" /> <img src="https://img.shields.io/badge/TYPESCRIPT-4169E1?style=for-the-badge&logo=typescript&logoColor=white" />
 
 ### Backend:
 
-<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
-<img src="https://img.shields.io/badge/TYPESCRIPT-4169E1?style=for-the-badge&logo=typescript&logoColor=white" /> Prisma
-<img src="https://img.shields.io/badge/PRISMA-cyan?style=for-the-badge&logo=prisma&logoColor=black" />
-
-<img src="https://img.shields.io/badge/PostgreSQL-orangered?style=for-the-badge&logo=PostgreSQL&logoColor=white" />
+<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" /> <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" /> <img src="https://img.shields.io/badge/TYPESCRIPT-4169E1?style=for-the-badge&logo=typescript&logoColor=white" /> Prisma
+<img src="https://img.shields.io/badge/PRISMA-cyan?style=for-the-badge&logo=prisma&logoColor=black" /> <img src="https://img.shields.io/badge/PostgreSQL-orangered?style=for-the-badge&logo=PostgreSQL&logoColor=white" />
 
 ### Deploys:
 
-- Backend: <img src="https://img.shields.io/badge/Render-gray?style=for-the-badge&logo=Render&logoColor=white" />
+- Backend: <img src="https://img.shields.io/badge/Render-gray?style=for-the-badge&logo=Render&logoColor=white" /> 
 - Frontend: <img src="https://img.shields.io/badge/Vercel-purple?style=for-the-badge&logo=Vercel&logoColor=white" />
 
 ## Colaboradores👥
