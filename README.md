@@ -28,8 +28,7 @@ Gestiona tus turnos y obtén una panorámica rápida y a cualquier hora de a cua
 
 ### Backend:
 
-<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" /> <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" /> <img src="https://img.shields.io/badge/TYPESCRIPT-4169E1?style=for-the-badge&logo=typescript&logoColor=white" /> Prisma
-<img src="https://img.shields.io/badge/PRISMA-cyan?style=for-the-badge&logo=prisma&logoColor=black" /> <img src="https://img.shields.io/badge/PostgreSQL-orangered?style=for-the-badge&logo=PostgreSQL&logoColor=white" />
+<img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" /> <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" /> <img src="https://img.shields.io/badge/TYPESCRIPT-4169E1?style=for-the-badge&logo=typescript&logoColor=white" /> <img src="https://img.shields.io/badge/PRISMA-cyan?style=for-the-badge&logo=prisma&logoColor=black" /> <img src="https://img.shields.io/badge/PostgreSQL-orangered?style=for-the-badge&logo=PostgreSQL&logoColor=white" />
 
 ### Deploys:
 
