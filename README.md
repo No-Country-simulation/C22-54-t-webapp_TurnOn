@@ -10,7 +10,7 @@ Gestiona tus turnos y obtén una panorámica rápida y a cualquier hora de a cua
 
 - Conocer como funciona la plataforma de TurnON y que ofrece.
 - Revisar varias opciones de atención disponibilidades para elegir la más adecuada.
-- Agendar citas con médicos cerca de mi trabajo para poder ir en la mañana y volver tranquilamente sin perder toda la jornada.
+- Agendar citas con médicos en un horario felxible, el paciente puede marcar la cita 24/7 sin llamar a un asistente, y geolocalizados estratégicamente.
 
 ## Tecnologías utilizadas💻
 
